@@ -10,6 +10,9 @@ const Home = () =>{
         <Link to="/DisplayForm" >
             <button>Display User Details</button>
         </Link>
+        <Link to="/fetchAPIs" >
+            <button>Fetch APIs</button>
+        </Link>
         <Outlet/>
       </div>
      
